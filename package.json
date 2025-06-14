@@ -1,22 +1,24 @@
 {
-  "name": "goit-js-hw-12-countries",
+  "name": "goit-js-hw---12-countries",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://thetureyprogramist.github.io/goit-js-hw-12-countries/",
+  "homepage": "https://thetureyprogramist.github.io/goit-js-hw---12-countries/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx parcel src/index.html",
-    "build": "parcel build src/index.html --no-cache --public-url /goit-js-hw-12-countries/",
+    "build": "parcel build src/index.html --no-cache --public-url /goit-js-hw---12-countries/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
   "author": "dima",
   "license": "ISC",
   "dependencies": {
+    "parcel": "^2.15.2",
     "gh-pages": "^6.3.0",
     "lodash": "^4.17.21",
-    "parcel": "^2.15.2",
-    "pnotify": "^5.2.0",
+    "pnotify": "^5.2.0"
+  },
+  "devDependencies": {
     "posthtml-include": "^2.0.1"
   }
 }

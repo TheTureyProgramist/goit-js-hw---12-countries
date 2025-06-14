@@ -708,6 +708,6 @@ catchCountry.addEventListener('input', ()=>{
     } else resultsContainer.innerHTML = filtered.map((country)=>`<li style="padding: 20px; ">${country.name}</li>`).join('');
 });
 
-},{}]},["kMjvB","bCGdT"], "bCGdT", "parcelRequirec490", {})
+},{}]},["kMjvB","bCGdT"], "bCGdT", "parcelRequire8de1", {})
 
 //# sourceMappingURL=goit-js-hw---12-countries.b038fe07.js.map
